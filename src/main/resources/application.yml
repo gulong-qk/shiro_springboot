@@ -16,3 +16,4 @@ spring:
   redis:
     host: 118.190.58.27
     port: 6390
+#edit by github
