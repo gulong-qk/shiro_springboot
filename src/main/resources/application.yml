@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: ihrm-company #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shiro-springboot?serverTimezone=GMT%2B8&characterEncoding=utf8
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
+  #shiro连接redis存放安全数据,以下是连接不通的
+  redis:
+    host: 118.190.58.27
+    port: 6390
